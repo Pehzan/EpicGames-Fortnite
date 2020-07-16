@@ -1,0 +1,36 @@
+body{
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+h1{
+	color:white;
+	text-shadow: 2px 3px  grey;
+	font-family:cursive;
+	text-align:center;
+	font-size:50px;
+}
+.nav{
+	height:50px;
+	background-color:cyan;
+}
+.nav div{
+	display: inline-block;
+	position:absolute;
+	padding:6px;
+	font-size:25px;
+	color:black;
+	font-family:cursive;
+}
+.nav ul{
+	position:absolute;
+	right:7px;
+}
+.nav ul li{
+	display:inline-block;
+}
+.nav ul li a{
+	color:black;
+	padding:6px;
+}

@@ -1,0 +1,37 @@
+p{
+	color:blue;
+	text-shadow: 2px 3px  grey;
+	font-family:cursive;
+	text-align:center;
+	font-size:35px;
+}
+.nav_menu{
+	background-color:black;
+		overflow:hidden;
+
+}
+.nav_menu a{
+	float:left;
+	display:block;
+	color:white;
+	text-align:center;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:12px;
+	font-size:25px;
+}
+.nav_menu a:hover{
+	color:grey;}
+
+.grid{display:flex;
+ flex-wrap: wrap;
+ justify-content: space-between; }
+
+
+
+*{
+	text-align:center;
+}
+h2{
+	font-size:35px;
+}
